@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+ 
+body {
+    background-color: yellow;
+}
+ 
+#wrapper {   /** WRAPPER**/
+
+    width: 70%;
+    margin:  auto;
+}
+ header h1 {
+    background-color:cornflowerblue;
+    color: cornsilk;
+    text-align: center;
+ 
+}
+img {
+    vertical-align: top;
+    width: 100%;
+   
+}
+main{  /** CONTENT **/
+    padding: 3% 1%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+main h2 {
+     padding: 20px 0;
+    color: darkgoldenrod;
+    
+}
+
+main nav {
+     
+     width: 15%;
+    background-color:white;
+    text-align: center;
+ 
+}
+ 
+ article   {  /** ARTICLE **/
+     
+    width: 60%; 
+    text-align: justify;
+    
+ }
+
+main nav a {
+     display: block;
+    background-color: cornflowerblue;
+    color: cornsilk;
+    text-decoration: none;
+    padding: 3% 1%;
+    
+}
+ main article {   
+      
+    background-color:white;
+    
+} 
+ aside {  
+     
+    width: 20%;
+    background-color:cornflowerblue;
+    text-align: justify;     
+ }
+ aside figure figcaption p {
+     padding-top: 5px;
+ }
+ aside figure figcaption h3{
+     text-align: center;
+ }
+ aside figure{
+    padding: 20px;
+    margin: auto;
+    background-color:cornflowerblue;
+    color: cornsilk;
+     
+ } 
+ aside figure img {
+         border:3px solid whitesmoke;
+ }
+  
+footer { /** FOOTER**/
+    padding: 1%;
+    color: cornsilk;
+    background-color: blue;
+    text-align: center; 
+}
+ 
